@@ -29,13 +29,15 @@ var users = [];
 
 //Let's say three people signed up for our service, create 3 instances of User and add each to the users Array
 
-  //code here
+  var Tim = new User ("Tim", "tim@tim.com", "openit", 6),
+  var Alma= new User('Alma', 'alma@alma.com', 'openit', 8),
+  var Jon= new User('Jon', 'jon@jon.com', 'openit', 7)
 
 
 //Create a questions Array which is going to hold all of our questions
 
   //code here
-
+var quandries = []
 
 //Now, let's say we wanted to create a quiz about JavaScript. Create three instances of Question which contain the following data
 //title: 'T/F: Inheritance is achieved in JavaScript through Prototypes?'
@@ -43,9 +45,9 @@ var users = [];
 //title: "T/F: In Javascript, == doesn't check 'type' but just the value - where === checks type and value"
 //Fill in the rest of the required data as you see appropriate.
 
-  //code here
-
-
+var ques1 = new Questions('T/F: Inheritance is achieved in JavaScript through Prototypes?', "quandries", "True", 4 )
+var ques2 = new Questions('T/F: JavaScript is just a scripting version of Java', "quandries", "True", 5 )
+var ques3 = new Questions("T/F: In Javascript, == doesn't check 'type' but just the value - where === checks type and value", "quandries", "True", 4 )
 //Now push all of your instances of Question into the questions Array
 
   //code here
