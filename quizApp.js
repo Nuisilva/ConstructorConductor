@@ -5,17 +5,26 @@
 
 //Create a User constructor that accepts name, email, password, and totalScore parameters and set them appropriatly
 
-  //code here
+  var User = function(name, email, password, totalScore){
+    this.name=name;
+    this.email=email;
+    this.password=password;
+    this.totalScore=totalScore;
+  }
 
 
 //Create a Question constructor that accepts title, answersArray, rightAnswer, and difficulty parameters
-
-  //code here
+var Questions = function(title, answersArray, rightAnswer, difficulty){
+  this.title;
+  this.answersArray;
+  this.rightAnswer;
+  this.difficulty;
+}
 
 
 //Create a users Array which is going to hold all of our users.
 
-  //code here
+var users = [];
 
 
 //Let's say three people signed up for our service, create 3 instances of User and add each to the users Array
