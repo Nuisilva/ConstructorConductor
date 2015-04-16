@@ -2,9 +2,10 @@
 
 //Add a reverse method to the String 'class' so that every instance of String can call reverse and reverse itself.
   
-String.prototype.reverse = function(str){
-  var arr = str.split(""); {
-        revStr = arr.reverse();
-        return revStr.join("");
-    }
+String.prototype.reverse = function(){
+  var arr = this.split("");
+  revStr = arr.reverse();
+  return revStr.join("");
 };
+
+string.reverse()
